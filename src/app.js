@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Plus, Minus, RotateCcw, ChefHat } from 'lucide-react';
+import { Plus, Minus, RotateCcw, ChefHat } from 'lucide-react'; //importing icons from lucide
 import './App.css';
 
-// Individual component classes
+// Individual component classes for the burger
 class BurgerComponent {
   constructor(id, name, color, textColor = 'white') {
     this.id = id;
@@ -21,7 +21,7 @@ const availableComponents = {
   baseBread: new BurgerComponent('baseBread', 'Base Bread', '#D4A574', 'black')
 };
 
-// Individual component display
+// Individual component display with buttons
 const ComponentLayer = ({ component, onRemove, index, canRemove }) => (
   <div 
     className="component-layer"

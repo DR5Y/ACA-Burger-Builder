@@ -127,3 +127,60 @@
 .remove-button:hover {
   background: #dc2626;
 }
+
+.control-panel {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+.control-panel h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+/* Component Buttons */
+.component-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.component-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.component-button-row:hover {
+  background: #f3f4f6;
+}
+
+.component-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.component-color-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.component-name {
+  font-weight: 500;
+  color: #374151;
+}
+
+.component-count {
+  font-size: 14px;
+  color: #6b7280;
+}
